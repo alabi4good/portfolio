@@ -1,0 +1,28 @@
+@mixin transition($trans) {
+    transition: $trans;
+    -webkit-transition: $trans;
+    -o-transition: $trans;
+    -moz-transition: $trans;
+}
+
+@mixin transition($TransA...) {
+    transition: $TransA;
+    -webkit-transition: $TransA;
+}
+
+@mixin keyframes( $name... ) {
+      @-webkit-keyframes #{ $name } {  @content;  }
+      @-moz-keyframes #{ $name } {  @content; }
+      @-o-keyframes #{ $name } { @content;  }
+      @keyframes #{ $name } {  @content;  }
+    
+}
+
+@mixin keyframes($blink){
+     @-webkit-keyframes #{ $blink } {  @content;  }
+      @-moz-keyframes #{ $blink } {  @content; }
+      @-o-keyframes #{ $blink } { @content;  }
+      @keyframes #{ $blink } {  @content;  }
+  
+}
+

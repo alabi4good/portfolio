@@ -1,0 +1,20 @@
+﻿CACHE MANIFEST
+# 2017-01-20 v1.0.0
+/Default.aspx
+/Styles/bootstrap.min.css
+/Styles/Site.css
+/Images/background-top.jpg
+/Images/design_icon.png
+/Images/development_icon.png
+/Images/github.jpg
+/Images/instagram.png
+/Images/linkdin.png
+/Images/newsletter_icon.png
+/Images/social_icon.png
+
+
+NETWORK:
+*
+
+FALLBACK:
+Offline.html
