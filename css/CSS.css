@@ -199,7 +199,7 @@ body {
   display: none; }
 
 #jump span {
-  color: #088da5;
+  color: whitesmoke;
   display: table-cell;
   animation: bump .8s infinite; }
 

@@ -67,7 +67,7 @@ body {
         }
         
         h2{
-            color: rgba(255,255,255,.1);
+            //color: rgba(255,255,255,.1);
             font-size: 4em;
             background-image: url(../img/water.png);
             background-repeat: repeat-x;
@@ -80,7 +80,7 @@ body {
  
         }
         h3{
-          color: white;
+          color: white !important;
           font-size: 2em;  
         }
         
@@ -215,7 +215,7 @@ body {
 
 #jump{
     span{
-        color: nth($nestedBlue, 1);
+        color: whitesmoke;
         display: table-cell;
         // box-shadow: 2px 0px 20px inset rgba(0,255,255, 0.5);
         animation: bump .8s infinite;
@@ -856,7 +856,7 @@ ul.socials{
     //  }
 
      #jump{
-         font-size: 1em;
+         font-size: 1.5em;
          
      }
 
