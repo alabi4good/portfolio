@@ -502,7 +502,7 @@ p.text-center img{
     transform-origin: center;
 }
 #proj14:before{
-    background: url('../img/web1.jpg') no-repeat;
+    background: url('../img/weatherapp.jpg') no-repeat;
     transform-origin: center;
 }
 #proj15:before{
@@ -868,6 +868,26 @@ ul.socials{
     
 }
 
+#arow-down{
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #FFFFFF;
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+text-align:center;
+transition: all 0.2s;
+
+    &:hover{
+    color:#000000;
+    background-color:rgb(85, 30, 30);
+    }
+}
+
 @media(max-width:768px) {
      #port-flex{
         flex-direction: column;
@@ -914,6 +934,13 @@ ul.socials{
     }
   }
 
+  @media all and (max-width:30em){
+    a#arow-down{
+        display:block;
+        margin:0.4em auto;
+    }
+
+  }
 
 
 
