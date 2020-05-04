@@ -67,7 +67,7 @@ body {
         }
         
         h2{
-            //color: rgba(255,255,255,.1);
+            color: rgba(204, 190, 204, 0.5);
             font-size: 4em;
             background-image: url(../img/water.png);
             background-repeat: repeat-x;
@@ -426,7 +426,6 @@ p.text-center img{
     border-radius: 8px;
     padding: 10px;
     background: rgba(52, 73, 94, .75);
-
     &:before{
         content: '';
         top: 0;
@@ -498,7 +497,7 @@ p.text-center img{
     transform-origin: center;
 }
 #proj13:before{
-    background: url('../img/web1.jpg') no-repeat;
+    background: url('../img/stopwatch.png') no-repeat;
     transform-origin: center;
 }
 #proj14:before{
